@@ -1,4 +1,13 @@
 h2{
-    background-color: black;
-    color: white;
+ background-color:white;
+ color: black
+ font-style: oblique;
+ 
+}
+
+#buttonSubmit{
+  /* text-align: right; */
+  text-align: right;
+  position: relative;
+  border-radius: 
 }
