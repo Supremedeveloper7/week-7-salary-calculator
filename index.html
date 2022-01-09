@@ -12,33 +12,40 @@
 </head>
 
 <body>
+    <h1 id="salary-Calculator">Salary Calculator</h1>
     <h4 id="employeeAdded">Add Employee</h4>
-    <div class='somethingfornow'>
-        <input type='string' placeholder='First Name' id=firstN>
-        <input type='string' placeholder='Last Name' id='lastN'>
-        <input type='number' placeholder="ID" id="numberID">
-        <input type='string' placeholder="Title" id="positonTitle">
-        <input type='string' placeholder="Annual Salary" id="totalSalary">
-        
-    </div>
-    <div id="buttonSubmit">
-        <input type="submit">
-    </div>
-   <div>
-       <h4>Employees</h4>
-   </div>
-   <div id="tableHead">
-     <tr>
-         <th>First Name</th>
-         <th>Last Name</th>
-         <th>ID</th>
-         <th>Title</th>
-         <th>Annual Salary</th>
-         
+    <div class='infoContent'>
 
-         
-     </tr>
-   </div>
+
+        <input type="text" id="first-Name" placeholder="First Name">
+        <input type="text" id="last-Name" placeholder="Last Name" />
+        <input type="Number" id="ID-Number" placeholder="ID">
+        <input type="text" id="position-Title" placeholder="Title">
+        <input type="Number" id="annual-Salary" placeholder="Annual Salary">
+
+    </div>
+    <br>
+    <button id="buttonSub">Submit</button> 
+  
+    <h4>Employees</h4>
+    <div style="overflow-x:auto;">
+        <table>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Annual Salary</th>
+            </tr>
+            <tr>
+                <!-- <td>Supreme</td>
+                <td>Developer</td>
+                <td>1234</td>
+                <td>King</td>
+                <td>billioniare</td> -->
+        </table>
+    </div>
+   
 </body>
 
 </html>

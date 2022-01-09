@@ -5,9 +5,42 @@ h2{
  
 }
 
-#buttonSubmit{
-  /* text-align: right; */
-  text-align: right;
-  position: relative;
-  border-radius: 
+button{
+ position: relative;
+ text-align: right;
+ float right;
+  
+  
 }
+
+
+table {
+  border-collapse: collapse;
+  width: 85%;
+}
+
+th {
+  height: 40px;
+}
+
+table, td, th {
+  border: 1px solid black;
+}
+
+h1{
+  text-align: center;
+  background-color: gray;
+  color: white;
+  height: 70px
+}
+
+ td{
+  padding: 5px;
+  border-bottom: 1px solid ;
+}
+
+tr:hover{
+background-color: grey
+}
+
+
