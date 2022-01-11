@@ -1,37 +1,90 @@
+body{
+  background-color: rgb(179, 196, 190) ;
+}
+
+h1{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  padding: 20px
+}
+
 h2{
- background-color:white;
+  text-align: center;
+  padding: 10px;
+  
+
+}
+
+#submitButton{
+  position: relative;
+  text-align: right;
+  cursor: pointer;
+ 
+ }
+
+ table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: ;
+  text-align: left;
+}
+
+#monthlySalary{
+  text-align: right;
+}
+
+main{
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* h2{
+ background-color: 
  color: black
  font-style: oblique;
  
 }
 
-button{
+#submitButton{
  position: relative;
  text-align: right;
- float right;
-  
-  
+ cursor: pointer;
+
 }
 
 
 table {
   border-collapse: collapse;
   width: 85%;
+  background-color: ;
 }
 
 th {
   height: 40px;
+  text-align: left;
 }
 
 table, td, th {
   border: 1px solid black;
+
 }
 
 h1{
   text-align: center;
   background-color: gray;
   color: white;
-  height: 70px
+  height: 60px
 }
 
  td{
@@ -41,6 +94,7 @@ h1{
 
 tr:hover{
 background-color: grey
-}
+} */
+
 
 

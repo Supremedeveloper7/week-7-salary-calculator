@@ -12,40 +12,48 @@
 </head>
 
 <body>
-    <h1 id="salary-Calculator">Salary Calculator</h1>
-    <h4 id="employeeAdded">Add Employee</h4>
-    <div class='infoContent'>
+    <main>
+        <header>
+            <h1> Salary Calculator</h1>
+        </header>
+    </main>
+    <section>
+        <h2> Employee Form</h2>
 
+        <input type="text" id="firstName" placeholder="First Name">
+        <input type="text" id="lastName" placeholder="Last Name">
+        <input type="Number" id="idNumber" placeholder="ID">
+        <input type="text" id="positionTitle" placeholder="Title">
+        <input type="Number" id="annnualSalary" placeholder="Annual Salary">
+        <button id="submitButton">Submit</button>
 
-        <input type="text" id="first-Name" placeholder="First Name">
-        <input type="text" id="last-Name" placeholder="Last Name" />
-        <input type="Number" id="ID-Number" placeholder="ID">
-        <input type="text" id="position-Title" placeholder="Title">
-        <input type="Number" id="annual-Salary" placeholder="Annual Salary">
+    </section>
 
-    </div>
-    <br>
-    <button id="buttonSub">Submit</button> 
-  
-    <h4>Employees</h4>
-    <div style="overflow-x:auto;">
+    <section>
+        <h2> Employee Table</h2>
+
         <table>
-            <tr>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>ID</th>
-                <th>Title</th>
-                <th>Annual Salary</th>
-            </tr>
-            <tr>
-                <!-- <td>Supreme</td>
-                <td>Developer</td>
-                <td>1234</td>
-                <td>King</td>
-                <td>billioniare</td> -->
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Annual Salary</th>
+                </tr>
+            </thead>
+
+            <tbody class="newData">
+                
+            </tbody>
+
+
         </table>
-    </div>
-   
+        <section id="monthlySalary">
+            Monthly Salary Calculation: $<span id="monthly-salary">0.00</span>
+        </section>
+    </section>
+
 </body>
 
 </html>
