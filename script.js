@@ -52,6 +52,8 @@ function addEmployee (event){
      const monthlySalary = annualSalary / 12;
      
      $('#monthly-salary').text(monthlySalary.toFixed(2));
+     
+     $('#monthly-salary').val('')
 
      if (monthlySalary > 20000) {
      $('#monthly-salary').css('color', 'red');
